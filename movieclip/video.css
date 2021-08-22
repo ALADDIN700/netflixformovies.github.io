@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #ffffff;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+    align-items: center;
+}
+.head{
+    justify-items: center;
+    align-items: center;
+}
+.head > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 11%;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    cursor: pointer;
+}
+video{
+    border-radius: 20px;
+    height: 650px;
+    width: auto;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    z-index: 1;
+}
+video::-webkit-media-controls-panel {
+    display: none !important;
+    opacity: 1 !important;
+}
+.img-item > img{
+    position: absolute;
+    left: -80px;
+    top: 50%;
+    z-index: 1;
+    width: 19%;
+    filter:brightness(0);
+    transform: rotate(-90deg)
+}
+.plus-18{
+    position:absolute;
+    left: 10%;
+    bottom: -8%;
+    z-index: 1;
+    background-color: #e50914bd;
+    border: 2px solid #ffffff;
+    color:#ffffff;
+}

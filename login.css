@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue', cursive;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.logo > img{
+    width: 10%;
+    z-index:-1;
+    margin-top: -16px;
+    margin-bottom: -16px;
+}
+.box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-image{
+    display:flex;
+    align-items:center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(/source/netflixin.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;margin: 10px;margin-top: -1px;margin-bottom: -1px;
+    border-radius: 15px;
+    width: 98%;
+    height: 87.5vh;
+}
+.box-signin{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 22.3%;
+    height: 66vh;
+    color: white;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.486);
+    margin: 13px;border-radius: 10px;
+    margin-top: -9px;margin-bottom: -101px;
+}
+.footer ul li{
+    display: inline-block;
+    color: rgb(128, 128, 128);
+    margin-right: 20px;
+}
+.a-one{
+    padding-top: 21%;
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+.a-one:hover{
+    text-decoration: underline;
+    color: white;
+}
+.right{
+    float: right;
+}
+.left-in-box{
+    width: 100%;
+    margin: 25px;
+    text-align: left;
+}
+.input-item > input{
+    font-family: 'Bebas Neue', cursive;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    padding: 0px;
+    margin-bottom: 17px;
+    text-indent: 10px;
+}
+input::placeholder{
+    font-family: 'Bebas Neue', cursive;
+    color: #000000;
+    font-weight:400;
+}
+
+/*sign in button*/
+button{
+    margin-top: 10px;
+    background-color: #E50914;
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 19px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    border: none;
+}
+.R-and-N{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;   
+    font-weight: 100; 
+}
+.R-and-N a{text-decoration: none;color: white;}
+.R-and-N > p{ margin-top: -1px;}
+input[type=checkbox]{padding: 0px; margin: 0px;}
+.facebook-login{
+   position: relative;
+   top: -22px;
+}
+.login-thefacebook::before{
+    content:"";
+    background-image: url('/source/facebook.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    padding-left: 4px;
+    width: 20px; 
+    height: 20px;
+}
+.login-thefacebook{
+    font-size: 16px;
+    margin-bottom: -12px;
+}.login-thefacebook > a{
+    color: white;
+    text-decoration: none;
+}.login-thefacebook > a:hover{
+    text-decoration: underline;
+}
+.new-user{
+    position: relative;
+    top: -18px;
+    margin-bottom: -25px;
+}.new-user a{
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+}.new-user,.google-reCap a:hover{text-decoration: underline;color: white;}
+.google-reCap{
+    color: rgb(128, 128, 128);
+    font-size: 12px;
+    font-weight: normal;
+}

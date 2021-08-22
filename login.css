@@ -33,7 +33,7 @@ body{
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: center;
-    background-image: url(/source/netflixin.jpg);
+    background-image: url(source/netflixin.jpg);
     background-repeat: no-repeat;
     background-size:cover;margin: 10px;margin-top: -1px;margin-bottom: -1px;
     border-radius: 15px;
@@ -125,7 +125,7 @@ input[type=checkbox]{padding: 0px; margin: 0px;}
 }
 .login-thefacebook::before{
     content:"";
-    background-image: url('/source/facebook.png');
+    background-image: url('source/facebook.png');
     background-size: 20px 20px;
     background-repeat: no-repeat;
     display: inline-block;

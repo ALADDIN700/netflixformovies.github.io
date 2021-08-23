@@ -12,14 +12,14 @@ body{
     position: relative;
     width: 11%;
     z-index: 1;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: -15px;
     float: left;
     margin-bottom: -14px;
 }
 
 .home-image{
-    background-image: url(movieclip/hoome.jpg);
+    background-image: url(hoome.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

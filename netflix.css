@@ -476,3 +476,27 @@ td > a:hover{
     left: 10px;
     margin-bottom: 10px;
 }
+
+
+@media only screen and (max-width: 800px) {
+    .container-one,.section-two,.section-three,.section-four,.section-five,.section-faq,.footer,hr{
+        display: none;
+    }.heading{display: none;}
+    .comming-soon{
+        color: white;
+        position: fixed;
+        text-align: center;
+        top:40%;
+        left: 0%;
+        right: 0%;
+        z-index: 1;
+    }
+    .comming-soon spam{
+        font-size: 70px;
+        color: #E50914;
+    }
+    .comming-soon spam1{
+        font-size: 50px;
+        color: #E50914;
+    }
+  }
